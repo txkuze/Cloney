@@ -55,12 +55,12 @@ HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-SOURCE = os.getenv("SOURCE", "https://github.com/itzarjuna1/InfiniteClone")
+SOURCE = os.getenv("SOURCE", "https://github.com/txkuze/Cloney")
 UPSTREAM_REPO = os.getenv(
     "UPSTREAM_REPO",
-    "https://github.com/itzarjuna1/InfiniteClone",
+    "https://github.com/txkuze/Cloney",
 )
-UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv(
     "GIT_TOKEN", None
 )
